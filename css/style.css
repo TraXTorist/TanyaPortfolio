@@ -1,0 +1,202 @@
+body {
+  font-family: "Comfortaa";
+  height: 3000px;
+  overflow-x:hidden;
+}
+
+/* ======================================================== */
+
+.header__top {
+  width: 1920px;
+  height: 110px;
+  background-color: #192023;
+  color: #f0f8ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__top-portfolio {
+  font-size: 30px;
+  margin-left: 100px;
+}
+
+.header__inner-list {
+  display: flex;
+  gap: 30px;
+  margin-right: 100px;
+  font-size: 20px;
+}
+
+.header__list-item:hover {
+  color: #d7b054;
+  transition: .3s;
+}
+
+/* ======================================================== */
+
+.header__img {
+  position: relative;
+}
+
+.header__main-img {
+  width: 1920px;
+}
+
+.header__img-text {
+  position: absolute;
+  top: 275px;
+  left: 715px;
+  color: #f0f8ff;
+  font-size: 65px;
+  line-height: 67px;
+  font-weight: 700;
+}
+
+.header__text-line {
+  background-color: #d7b054;
+  height: 1px;
+  width: 250px;
+  margin-top: 10px;
+  margin-left: 75px;
+}
+
+/* ======================================================== */
+
+.main {
+  position: absolute;
+  top: 921px;
+  left: 0;
+}
+
+.info {
+  height: 680px;
+  background-color: #192023;
+  padding: 0 310px;
+}
+
+.info__title {
+  font-size: 48px;
+  font-weight: 300;
+  color: #d7b054;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.info__title-line {
+  width: 1000px;
+  height: 2px;
+  background-color: #d7b054;
+  margin: 24px 150px 50px;
+}
+
+.info__main-img {
+  width: 270px;
+  height: 337px;
+  border: 2px solid #d7b054;
+  border-radius: 15px;
+  margin: 0 100px;
+}
+
+.main__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right__side {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+}
+
+.bio__info, .job__info, .skills__info {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.info__text {
+  color: #f0f8ff;
+}
+
+.main__info-btn {
+  background-color: #192023;
+  border: 2px solid #d7b054;
+  padding: 16px 32px;
+  display: flex;
+  margin-top: 80px;
+  margin-left: 526.5px;
+}
+
+.info__btn-text {
+  width: 158px;
+  height: 24px;
+  color: #d7b054;
+  font-size: 18px;
+  margin-top: 3px;
+}
+
+.info__btn-svg {
+  width: 21px;
+  height: 21px;
+  margin-top: 1px;
+}
+
+.main__info-btn:hover {
+  background-color: #444444;
+  border: 2px solid #444444;
+  transition: .3s;
+}
+
+/* =============================================== */
+
+.photo {
+  height: 830px;
+  background-image: linear-gradient( rgba(24, 23, 23, 0.8), rgba(0, 0, 0, 0.5) ), url('../img/photoImage.png');
+  padding: 0 310px;
+}
+
+.photo__title {
+  font-size: 48px;
+  font-weight: 300;
+  color: #d7b054;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.photo__title-line {
+  width: 1000px;
+  height: 2px;
+  background-color: #d7b054;
+  margin: 24px 150px 50px;
+}
+
+.main__photo-btn {
+  background-color: #192023;
+  border: 2px solid #d7b054;
+  padding: 16px 32px;
+  display: flex;
+  margin-top: 80px;
+  margin-left: 526.5px;
+}
+
+.photo__btn-text {
+  width: 158px;
+  height: 24px;
+  color: #d7b054;
+  font-size: 18px;
+  margin-top: 3px;
+}
+
+.photo__btn-svg {
+  width: 21px;
+  height: 21px;
+  margin-top: 1px;
+}
+
+.main__photo-btn:hover {
+  background-color: #444444;
+  border: 2px solid #444444;
+  transition: .3s;
+}
+
